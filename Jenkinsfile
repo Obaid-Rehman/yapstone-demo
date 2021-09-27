@@ -1,5 +1,9 @@
 pipeline {
-  agent any
+  agent {
+    docker {
+      image 'ubuntu:18.04'
+    }
+  }
   environment {
     API_ENTITY_ID='613b5f7b3300989c5dc09ffe' 
   }
