@@ -20,12 +20,12 @@ pipeline {
     }
     stage('Inplace Import') {
       steps {
-        sh "curl -X PUT --url 'https://www.apimatic.io/api/api-entities/${env.API_ENTITY_ID}' --user ${env.USERNAME}:${env.PASSWORD} -H 'content-type:multipart/form-data' -F 'file=@Specs/portal-input.zip'"
+        sh "curl -X PUT --url 'https://www.apimatic.io/api/api-entities/${env.API_ENTITY_ID}' -v --basic --user ${env.USERNAME}:${env.PASSWORD} -H 'content-type:multipart/form-data' -F 'file=@Specs/portal-input.zip'"
       }
     }
     stage('Publish Portal') {
       steps {
-        sh "curl --location --request PUT --user ${env.USERNAME}:${env.PASSWORD} --url 'https://www.apimatic.io/api/api-entities/${env.API_ENTITY_ID}/portal/publish' -H 'Content-Length:0'"
+        sh "curl --location --request PUT -v --basic --user ${env.USERNAME}:${env.PASSWORD} --url 'https://www.apimatic.io/api/api-entities/${env.API_ENTITY_ID}/portal/publish' -H 'Content-Length:0'"
       }
     }
   }
