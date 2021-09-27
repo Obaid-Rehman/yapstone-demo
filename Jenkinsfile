@@ -20,7 +20,7 @@ pipeline {
     }
     stage('Inplace Import') {
       steps {
-        sh "curl -X PUT --url 'https://www.apimatic.io/api/api-entities/${env.API_ENTITY_ID}' -v --basic --user ${env.USERNAME}:${env.PASSWORD} -H 'content-type:multipart/form-data' -F 'file=@Specs/portal-input.zip'"
+        sh "curl -X PUT --url 'https://www.apimatic.io/api/api-entities/${env.API_ENTITY_ID}' -v --basic --user ${env.USERNAME}:${env.PASSWORD} -H 'content-type:multipart/form-data' -H 'Accept:application/zip' -F 'file=@Specs/portal-input.zip'"
       }
     }
     stage('Publish Portal') {
