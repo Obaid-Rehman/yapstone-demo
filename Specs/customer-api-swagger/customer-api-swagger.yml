@@ -2,7 +2,7 @@
   "swagger": "2.0",
   "info": {
     "version": "V1",
-    "title": "Yapstone Customer APIs",
+    "title": "Yapstone Customer APIs By Brad",
     "description": "APIs for onboarding and managing customers.",
     "contact": {},
     "x-codegen-settings": {
@@ -155,7 +155,7 @@
   "paths": {
     "/customers/": {
       "post": {
-        "description": "Create a new customer By Obaid333333333. (EDITED)",
+        "description": "Create a new customer By Obaid4444444444444. (EDITED)",
         "summary": "createCustomerByObaid2",
         "tags": [
           "Customers"
