@@ -2,7 +2,7 @@
   "swagger": "2.0",
   "info": {
     "version": "V1",
-    "title": "Yapstone Customer APIs By Brad",
+    "title": "Yapstone Customer APIs",
     "description": "APIs for onboarding and managing customers.",
     "contact": {},
     "x-codegen-settings": {
