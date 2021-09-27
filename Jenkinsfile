@@ -1,9 +1,5 @@
 pipeline {
-  agent {
-    docker {
-      image 'ubuntu:18.04'
-    }
-  }
+  agent any
   environment {
     API_ENTITY_ID='613b5f7b3300989c5dc09ffe' 
   }
@@ -13,22 +9,10 @@ pipeline {
         sh "curl --version"
       }
     }
-    stage('install zip'){
-      steps {
-        sh 'apt-get install zip unzip'
-      }
-    }
-    stage('zip input files') {
+    stage('Zip files'){
       steps {
         dir('./Specs') {
-          sh 'zip -r portal-input.zip *'
-        }
-      }
-    }
-    stage('list') {
-      steps {
-        dir('./Specs') {
-          sh 'zip -sf portal-input.zip'
+          zip zipFile:'input-portal.zip'
         }
       }
     }
