@@ -1,7 +1,7 @@
 pipeline {
   agent any
   environment {
-    API_ENTITY_ID='6152b8fae91a1e08374d3c41' 
+    API_ENTITY_ID='6152c5d83b4fbcff6a78d00a' 
     USERNAME='obaid.khattak@apimatic.io'
     PASSWORD='Bigdaddy.123'
   }
