@@ -155,12 +155,12 @@
   "paths": {
     "/customers/": {
       "post": {
-        "description": "Create a new customer By Obaid4444444444444. (EDITED)",
-        "summary": "createCustomerByObaid2",
+        "description": "Create a new customer. (EDITED)",
+        "summary": "createCustomer",
         "tags": [
           "Customers"
         ],
-        "operationId": "createCustomerByObaid2",
+        "operationId": "createCustomer",
         "deprecated": false,
         "produces": [
           "application/json"
