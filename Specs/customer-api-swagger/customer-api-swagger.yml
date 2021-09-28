@@ -155,7 +155,7 @@
   "paths": {
     "/customers/": {
       "post": {
-        "description": "Create a new customer1234. (EDITED)",
+        "description": "Create a new customer5678. (EDITED)",
         "summary": "createCustomer",
         "tags": [
           "Customers"
