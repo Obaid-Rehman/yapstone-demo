@@ -25,7 +25,7 @@ pipeline {
     }
     stage('Publish Portal') {
       steps {
-        sh "curl -X PUT -v --basic --user ${env.USERNAME}:${env.PASSWORD} --url 'https://www.apimatic.io/api/api-entities/${env.API_ENTITY_ID}/portal/publish' -H 'Content-Length: 0'  -H 'Connection: keep-alive' -H 'Content-Type: application/json' -H 'Accept: application/json' -H 'Accept-Encoding: gzip,deflate,br'"
+        sh "curl -X PUT -v --basic --user ${env.USERNAME}:${env.PASSWORD} --url 'https://www.apimatic.io/api/api-entities/${env.API_ENTITY_ID}/portal/publish' -H 'Content-Length: 0' -H 'Content-Type: application/json' -H 'Accept: application/json' -H 'Accept-Encoding: gzip,deflate,br'"
       }
     }
   }
