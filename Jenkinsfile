@@ -1,9 +1,9 @@
 pipeline {
   agent any
   environment {
-    API_ENTITY_ID='61530385482a23ea938753f4' 
-    USERNAME='obaid.khattak@apimatic.io'
-    PASSWORD='Bigdaddy.123'
+    API_ENTITY_ID='xxxxxxxxxxxxxxx' 
+    USERNAME='xxxxxxxxxxxxxxx'
+    PASSWORD='xxxxxxxxxx'
   }
   stages {
     stage('Validate') {
