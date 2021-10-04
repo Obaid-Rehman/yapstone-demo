@@ -3,7 +3,7 @@
   "info": {
     "version": "V1",
     "title": "Yapstone Customer APIs By Obaid",
-    "description": "APIs for onboarding and managing customers.",
+    "description": "APIs for onboarding and managing customers By Obaid.",
     "contact": {},
     "x-codegen-settings": {
       "Nullify404": false,
@@ -155,12 +155,12 @@
   "paths": {
     "/customers/": {
       "post": {
-        "description": "Create a new customer by Obaid. (EDITED)",
-        "summary": "createCustomerByObaid",
+        "description": "Create a new customer by Obaid1234. (EDITED)",
+        "summary": "createCustomerByObaid123",
         "tags": [
           "Customers"
         ],
-        "operationId": "createCustomerByObaid2",
+        "operationId": "createCustomerByObaid1223",
         "deprecated": false,
         "produces": [
           "application/json"
@@ -231,12 +231,12 @@
     },
     "/customers/{customerId}": {
       "get": {
-        "description": "Fetch a customer By Obaid3.",
-        "summary": "getCustomerObaid4",
+        "description": "Fetch a customer By Obaid6667.",
+        "summary": "getCustomerObaid4667",
         "tags": [
           "Customers"
         ],
-        "operationId": "getCustomerObaid5",
+        "operationId": "getCustomerObaid46678",
         "deprecated": false,
         "produces": [
           "application/json"
