@@ -1,7 +1,7 @@
 {
     "MergeConfiguration": {
         "MergeApis": true,
-        "MergedApiName": "Merged",
+        "MergedApiName": "MergedByObaid",
         "MergeSettings": {
           "ConflictStrategy": "Merge", 
           "AppendParentNameInNamingConflict" : true
