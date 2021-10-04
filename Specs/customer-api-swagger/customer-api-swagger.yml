@@ -155,12 +155,12 @@
   "paths": {
     "/customers/": {
       "post": {
-        "description": "Create a new customer by Obaid1234. (EDITED)",
-        "summary": "createCustomerByObaid123",
+        "description": "Create a new customer by Obaid333333333. (EDITED)",
+        "summary": "createCustomerByObaid333333333333",
         "tags": [
           "Customers"
         ],
-        "operationId": "createCustomerByObaid1223",
+        "operationId": "createCustomerByObaid33333333333333",
         "deprecated": false,
         "produces": [
           "application/json"
@@ -231,12 +231,12 @@
     },
     "/customers/{customerId}": {
       "get": {
-        "description": "Fetch a customer By Obaid6667.",
-        "summary": "getCustomerObaid4667",
+        "description": "Fetch a customer By Obaid3333333333.",
+        "summary": "getCustomerObaid33333333333",
         "tags": [
           "Customers"
         ],
-        "operationId": "getCustomerObaid46678",
+        "operationId": "getCustomerObaid3333333333333",
         "deprecated": false,
         "produces": [
           "application/json"
@@ -373,12 +373,12 @@
         }
       },
       "delete": {
-        "description": "Delete a customer.",
-        "summary": "deleteCustomer",
+        "description": "Delete a customer By Obaid33333333.",
+        "summary": "deleteCustomer333333333",
         "tags": [
           "Customers"
         ],
-        "operationId": "deleteCustomer",
+        "operationId": "deleteCustomer333333333333",
         "deprecated": false,
         "produces": [
           "application/json"
@@ -510,7 +510,7 @@
     },
     "/customers/{customerId}/marketplace": {
       "get": {
-        "description": "Fetch a customer with maketPlace.",
+        "description": "Fetch a customer with maketPlace By Obaid3333333333333.",
         "summary": "getCustomerMarketplace",
         "tags": [
           "Search"
