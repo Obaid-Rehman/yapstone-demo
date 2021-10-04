@@ -2,7 +2,7 @@
   "swagger": "2.0",
   "info": {
     "version": "V1",
-    "title": "Yapstone Customer APIs By Brad",
+    "title": "Yapstone Customer APIs By Obaid",
     "description": "APIs for onboarding and managing customers.",
     "contact": {},
     "x-codegen-settings": {
@@ -155,12 +155,12 @@
   "paths": {
     "/customers/": {
       "post": {
-        "description": "Create a new customer123456789. (EDITED)",
-        "summary": "createCustomer",
+        "description": "Create a new customer by Obaid. (EDITED)",
+        "summary": "createCustomerByObaid",
         "tags": [
           "Customers"
         ],
-        "operationId": "createCustomer",
+        "operationId": "createCustomerByObaid2",
         "deprecated": false,
         "produces": [
           "application/json"
@@ -231,12 +231,12 @@
     },
     "/customers/{customerId}": {
       "get": {
-        "description": "Fetch a customer By Brad.",
-        "summary": "getCustomer",
+        "description": "Fetch a customer By Obaid3.",
+        "summary": "getCustomerObaid4",
         "tags": [
           "Customers"
         ],
-        "operationId": "getCustomer",
+        "operationId": "getCustomerObaid5",
         "deprecated": false,
         "produces": [
           "application/json"
